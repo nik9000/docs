@@ -663,7 +663,7 @@ Repo: elasticsearch
   Elasticsearch Reference/docs/Versions.asciidoc/5.6 4ead99d8   [DOCS] Adds PRs to 5.6.14 release notes (#36499)
   Elasticsearch Reference/docs/Versions.asciidoc/6.0 70517484   [DOCS] Adds TLS warning to rolling upgrades (#35841)
   Elasticsearch Reference/docs/Versions.asciidoc/6.1 c7568326   [DOCS] Adds TLS warning to rolling upgrades (#35841)
-  Elasticsearch Reference/docs/Versions.asciidoc/6.2 b290d42f   [DOCS] Adds TLS warning to rolling upgrades (#35841)
+  Elasticsearch Reference/docs/Versions.asciidoc/6.2 7cd6ac89   [DOCS] Fixes broken link for OSS doc builds
   Elasticsearch Reference/docs/Versions.asciidoc/6.3 c860d54a   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/docs/Versions.asciidoc/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/docs/Versions.asciidoc/6.5 13b1c764   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
@@ -673,7 +673,7 @@ Repo: elasticsearch
   Elasticsearch Reference/docs/painless/5.6 4ead99d8   [DOCS] Adds PRs to 5.6.14 release notes (#36499)
   Elasticsearch Reference/docs/painless/6.0 70517484   [DOCS] Adds TLS warning to rolling upgrades (#35841)
   Elasticsearch Reference/docs/painless/6.1 c7568326   [DOCS] Adds TLS warning to rolling upgrades (#35841)
-  Elasticsearch Reference/docs/painless/6.2 b290d42f   [DOCS] Adds TLS warning to rolling upgrades (#35841)
+  Elasticsearch Reference/docs/painless/6.2 7cd6ac89   [DOCS] Fixes broken link for OSS doc builds
   Elasticsearch Reference/docs/painless/6.3 c860d54a   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/docs/painless/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/docs/painless/6.5 13b1c764   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
@@ -699,7 +699,7 @@ Repo: elasticsearch
   Elasticsearch Reference/docs/reference/5.6 4ead99d8   [DOCS] Adds PRs to 5.6.14 release notes (#36499)
   Elasticsearch Reference/docs/reference/6.0 70517484   [DOCS] Adds TLS warning to rolling upgrades (#35841)
   Elasticsearch Reference/docs/reference/6.1 c7568326   [DOCS] Adds TLS warning to rolling upgrades (#35841)
-  Elasticsearch Reference/docs/reference/6.2 b290d42f   [DOCS] Adds TLS warning to rolling upgrades (#35841)
+  Elasticsearch Reference/docs/reference/6.2 7cd6ac89   [DOCS] Fixes broken link for OSS doc builds
   Elasticsearch Reference/docs/reference/6.3 c860d54a   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/docs/reference/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/docs/reference/6.5 13b1c764   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
@@ -711,7 +711,7 @@ Repo: elasticsearch
   Elasticsearch Reference/docs/src/test/cluster/config/5.6 4ead99d8   [DOCS] Adds PRs to 5.6.14 release notes (#36499)
   Elasticsearch Reference/docs/src/test/cluster/config/6.0 70517484   [DOCS] Adds TLS warning to rolling upgrades (#35841)
   Elasticsearch Reference/docs/src/test/cluster/config/6.1 c7568326   [DOCS] Adds TLS warning to rolling upgrades (#35841)
-  Elasticsearch Reference/docs/src/test/cluster/config/6.2 b290d42f   [DOCS] Adds TLS warning to rolling upgrades (#35841)
+  Elasticsearch Reference/docs/src/test/cluster/config/6.2 7cd6ac89   [DOCS] Fixes broken link for OSS doc builds
   Elasticsearch Reference/docs/src/test/cluster/config/6.3 c860d54a   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/docs/src/test/cluster/config/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/docs/src/test/cluster/config/6.5 13b1c764   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
@@ -721,7 +721,7 @@ Repo: elasticsearch
   Elasticsearch Reference/plugins/examples/5.6 4ead99d8   [DOCS] Adds PRs to 5.6.14 release notes (#36499)
   Elasticsearch Reference/plugins/examples/6.0 70517484   [DOCS] Adds TLS warning to rolling upgrades (#35841)
   Elasticsearch Reference/plugins/examples/6.1 c7568326   [DOCS] Adds TLS warning to rolling upgrades (#35841)
-  Elasticsearch Reference/plugins/examples/6.2 b290d42f   [DOCS] Adds TLS warning to rolling upgrades (#35841)
+  Elasticsearch Reference/plugins/examples/6.2 7cd6ac89   [DOCS] Fixes broken link for OSS doc builds
   Elasticsearch Reference/plugins/examples/6.3 c860d54a   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/plugins/examples/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/plugins/examples/6.5 13b1c764   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
@@ -770,7 +770,7 @@ Repo: elasticsearch
   Installation and Upgrade Guide/docs/5.6 4ead99d8   [DOCS] Adds PRs to 5.6.14 release notes (#36499)
   Installation and Upgrade Guide/docs/6.0 70517484   [DOCS] Adds TLS warning to rolling upgrades (#35841)
   Installation and Upgrade Guide/docs/6.1 c7568326   [DOCS] Adds TLS warning to rolling upgrades (#35841)
-  Installation and Upgrade Guide/docs/6.2 b290d42f   [DOCS] Adds TLS warning to rolling upgrades (#35841)
+  Installation and Upgrade Guide/docs/6.2 7cd6ac89   [DOCS] Fixes broken link for OSS doc builds
   Installation and Upgrade Guide/docs/6.3 c860d54a   Docs: Fix typo in bool query (#36350)
   Installation and Upgrade Guide/docs/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Installation and Upgrade Guide/docs/6.5 13b1c764   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
