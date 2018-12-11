@@ -60,20 +60,20 @@ Repo: apm-server
   APM Server Reference/CHANGELOG.asciidoc/6.2 9cdb11b7   maintain changelog per minor release (#1364)
   APM Server Reference/CHANGELOG.asciidoc/6.3 b485c1fe   docs: fix broken hyperlinks in 6.3 docs (#1556)
   APM Server Reference/CHANGELOG.asciidoc/6.4 de1c0d28   docs: fix cross doc linking (#1620)
-  APM Server Reference/CHANGELOG.asciidoc/6.5 bf8babb3   Docs: Update stack version to 6.5.3 (#1637)
+  APM Server Reference/CHANGELOG.asciidoc/6.5 44d64f4e   Update beats framework to 41e753b (#1640)
   APM Server Reference/CHANGELOG.asciidoc/master ab932372   add 6.5.3 release notes (#1636)
   APM Server Reference/changelogs/6.1 e5bfd578   maintain changelog per minor release (#1365)
   APM Server Reference/changelogs/6.2 9cdb11b7   maintain changelog per minor release (#1364)
   APM Server Reference/changelogs/6.3 b485c1fe   docs: fix broken hyperlinks in 6.3 docs (#1556)
   APM Server Reference/changelogs/6.4 de1c0d28   docs: fix cross doc linking (#1620)
-  APM Server Reference/changelogs/6.5 bf8babb3   Docs: Update stack version to 6.5.3 (#1637)
+  APM Server Reference/changelogs/6.5 44d64f4e   Update beats framework to 41e753b (#1640)
   APM Server Reference/changelogs/master ab932372   add 6.5.3 release notes (#1636)
   APM Server Reference/docs/6.0       ae191ba5   Merge remote-tracking branch 'upstream/6.0' into 6.0
   APM Server Reference/docs/6.1       e5bfd578   maintain changelog per minor release (#1365)
   APM Server Reference/docs/6.2       9cdb11b7   maintain changelog per minor release (#1364)
   APM Server Reference/docs/6.3       b485c1fe   docs: fix broken hyperlinks in 6.3 docs (#1556)
   APM Server Reference/docs/6.4       de1c0d28   docs: fix cross doc linking (#1620)
-  APM Server Reference/docs/6.5       bf8babb3   Docs: Update stack version to 6.5.3 (#1637)
+  APM Server Reference/docs/6.5       44d64f4e   Update beats framework to 41e753b (#1640)
   APM Server Reference/docs/master    ab932372   add 6.5.3 release notes (#1636)
   Getting Started with Elastic APM/docs/6.0 ae191ba5   Merge remote-tracking branch 'upstream/6.0' into 6.0
   Getting Started with Elastic APM/docs/6.1 e5bfd578   maintain changelog per minor release (#1365)
@@ -620,16 +620,16 @@ Repo: beats
 
 Repo: cloud
 --------------------------------------------------------------------------------
-  Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/cloud-enterprise/1.0 a564bf1c   Add 5.6.13 in the usual places (#22953)
-  Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/cloud-enterprise/1.1 43b3eef8   Add 6.5.0, 6.5.1 and 6.5.2 in the usual places (#24196)
+  Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/cloud-enterprise/1.0 edf12098   Update docs for 5.6.14 (#24457)
+  Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/cloud-enterprise/1.1 a7b3966f   Update docs for 5.6.14 and 6.5.3 for ECE (#24455)
   Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/cloud-enterprise/2.0 3473c1da   Fix "__latest_success__" keyword in docs (#15409) (#24389)
-  Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/shared/1.1 43b3eef8   Add 6.5.0, 6.5.1 and 6.5.2 in the usual places (#24196)
+  Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/shared/1.1 a7b3966f   Update docs for 5.6.14 and 6.5.3 for ECE (#24455)
   Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/shared/2.0 3473c1da   Fix "__latest_success__" keyword in docs (#15409) (#24389)
-  Elastic Cloud - Hosted Elasticsearch and Kibana/docs/saas/release-ms-13 57e7f5ea   Add AWS Elasticsearch FAQ entry (#24282)
+  Elastic Cloud - Hosted Elasticsearch and Kibana/docs/saas/release-ms-13 f040cfd9   Update docs for 5.6.14 and 6.5.3 (#24453)
   Elastic Cloud - Hosted Elasticsearch and Kibana/docs/saas/release-ms-14 eed5a673   Setting version to 2.1.0-SNAPSHOT
   Elastic Cloud - Hosted Elasticsearch and Kibana/docs/saas/saas-release ef993a35   Removing Found logos (#23734)
   Elastic Cloud - Hosted Elasticsearch and Kibana/docs/saas/saas-release-heroku 0e39506f   changed exampple to example (#17632)
-  Elastic Cloud - Hosted Elasticsearch and Kibana/docs/shared/release-ms-13 57e7f5ea   Add AWS Elasticsearch FAQ entry (#24282)
+  Elastic Cloud - Hosted Elasticsearch and Kibana/docs/shared/release-ms-13 f040cfd9   Update docs for 5.6.14 and 6.5.3 (#24453)
   Elastic Cloud - Hosted Elasticsearch and Kibana/docs/shared/release-ms-14 eed5a673   Setting version to 2.1.0-SNAPSHOT
   Elastic Cloud - Hosted Elasticsearch and Kibana/docs/shared/saas-release ef993a35   Removing Found logos (#23734)
 
@@ -667,7 +667,7 @@ Repo: elasticsearch
   Elasticsearch Reference/docs/Versions.asciidoc/6.3 c860d54a   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/docs/Versions.asciidoc/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/docs/Versions.asciidoc/6.5 13b1c764   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
-  Elasticsearch Reference/docs/Versions.asciidoc/6.x d6e388e7   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
+  Elasticsearch Reference/docs/Versions.asciidoc/6.x ea19d8f6   SQL: move requests' parameters to requests JSON body (#36149) (cherry picked from commit eead8a144b27df0e311f84086381ce8823380054)
   Elasticsearch Reference/docs/Versions.asciidoc/master a9eccbcd   Tests- added helper methods to ESRestTestCase for checking warnings (#36443)
   Elasticsearch Reference/docs/painless/5.5 b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
   Elasticsearch Reference/docs/painless/5.6 4ead99d8   [DOCS] Adds PRs to 5.6.14 release notes (#36499)
@@ -677,7 +677,7 @@ Repo: elasticsearch
   Elasticsearch Reference/docs/painless/6.3 c860d54a   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/docs/painless/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/docs/painless/6.5 13b1c764   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
-  Elasticsearch Reference/docs/painless/6.x d6e388e7   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
+  Elasticsearch Reference/docs/painless/6.x ea19d8f6   SQL: move requests' parameters to requests JSON body (#36149) (cherry picked from commit eead8a144b27df0e311f84086381ce8823380054)
   Elasticsearch Reference/docs/painless/master a9eccbcd   Tests- added helper methods to ESRestTestCase for checking warnings (#36443)
   Elasticsearch Reference/docs/reference/0.90 2f99ae3b   [DOCS] Remove unnecessary X-Pack reference
   Elasticsearch Reference/docs/reference/1.3 597499a9   [DOCS] Remove unnecessary X-Pack reference
@@ -703,7 +703,7 @@ Repo: elasticsearch
   Elasticsearch Reference/docs/reference/6.3 c860d54a   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/docs/reference/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/docs/reference/6.5 13b1c764   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
-  Elasticsearch Reference/docs/reference/6.x d6e388e7   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
+  Elasticsearch Reference/docs/reference/6.x ea19d8f6   SQL: move requests' parameters to requests JSON body (#36149) (cherry picked from commit eead8a144b27df0e311f84086381ce8823380054)
   Elasticsearch Reference/docs/reference/master a9eccbcd   Tests- added helper methods to ESRestTestCase for checking warnings (#36443)
   Elasticsearch Reference/docs/src/test/cluster/config/5.3 e291e353   Introduce Gradle wrapper
   Elasticsearch Reference/docs/src/test/cluster/config/5.4 58267b13   Introduce Gradle wrapper
@@ -715,7 +715,7 @@ Repo: elasticsearch
   Elasticsearch Reference/docs/src/test/cluster/config/6.3 c860d54a   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/docs/src/test/cluster/config/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/docs/src/test/cluster/config/6.5 13b1c764   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
-  Elasticsearch Reference/docs/src/test/cluster/config/6.x d6e388e7   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
+  Elasticsearch Reference/docs/src/test/cluster/config/6.x ea19d8f6   SQL: move requests' parameters to requests JSON body (#36149) (cherry picked from commit eead8a144b27df0e311f84086381ce8823380054)
   Elasticsearch Reference/docs/src/test/cluster/config/master a9eccbcd   Tests- added helper methods to ESRestTestCase for checking warnings (#36443)
   Elasticsearch Reference/plugins/examples/5.5 b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
   Elasticsearch Reference/plugins/examples/5.6 4ead99d8   [DOCS] Adds PRs to 5.6.14 release notes (#36499)
@@ -725,14 +725,14 @@ Repo: elasticsearch
   Elasticsearch Reference/plugins/examples/6.3 c860d54a   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/plugins/examples/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/plugins/examples/6.5 13b1c764   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
-  Elasticsearch Reference/plugins/examples/6.x d6e388e7   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
+  Elasticsearch Reference/plugins/examples/6.x ea19d8f6   SQL: move requests' parameters to requests JSON body (#36149) (cherry picked from commit eead8a144b27df0e311f84086381ce8823380054)
   Elasticsearch Reference/plugins/examples/master a9eccbcd   Tests- added helper methods to ESRestTestCase for checking warnings (#36443)
   Elasticsearch Reference/x-pack/docs/6.3 c860d54a   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/x-pack/docs/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/x-pack/docs/6.5 13b1c764   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
-  Elasticsearch Reference/x-pack/docs/6.x d6e388e7   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
+  Elasticsearch Reference/x-pack/docs/6.x ea19d8f6   SQL: move requests' parameters to requests JSON body (#36149) (cherry picked from commit eead8a144b27df0e311f84086381ce8823380054)
   Elasticsearch Reference/x-pack/docs/master a9eccbcd   Tests- added helper methods to ESRestTestCase for checking warnings (#36443)
-  Elasticsearch Reference/x-pack/plugin/sql/qa/6.x d6e388e7   [DOCS] Adds PRs for 6.5.3 release notes (#36500)
+  Elasticsearch Reference/x-pack/plugin/sql/qa/6.x ea19d8f6   SQL: move requests' parameters to requests JSON body (#36149) (cherry picked from commit eead8a144b27df0e311f84086381ce8823380054)
   Elasticsearch Reference/x-pack/plugin/sql/qa/master a9eccbcd   Tests- added helper methods to ESRestTestCase for checking warnings (#36443)
   Elasticsearch Reference/x-pack/qa/sql/6.3 c860d54a   Docs: Fix typo in bool query (#36350)
   Elasticsearch Reference/x-pack/qa/sql/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
@@ -791,7 +791,7 @@ Repo: elasticsearch
   Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/documentation/6.5 f44d9e83   [DOCS] Added attributes for HLRC javadoc packages. (#34934)
   Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/documentation/6.x 70846ea9   HLRC: Add security Create Token API (#34791)
   Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/documentation/master 6fd7ea71   HLRC: DRY up remaining CRUD docs (#34925)
-  Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/master a9eccbcd   Tests- added helper methods to ESRestTestCase for checking warnings (#36443)
+  Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/master c595a73c   Add test logging for #35644
   Java API/docs/Versions.asciidoc/5.0 c77f63e4   Grammar: "by geographically" → "geographically" (#28595)
   Java API/docs/Versions.asciidoc/5.1 28f4e572   Introduce Gradle wrapper
   Java API/docs/Versions.asciidoc/5.2 104b202e   Introduce Gradle wrapper
@@ -806,7 +806,7 @@ Repo: elasticsearch
   Java API/docs/Versions.asciidoc/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Java API/docs/Versions.asciidoc/6.5 a42e2c73   update docs version (#36495)
   Java API/docs/Versions.asciidoc/6.x a3324116   Docs: Fix link to transport client
-  Java API/docs/Versions.asciidoc/master a9eccbcd   Tests- added helper methods to ESRestTestCase for checking warnings (#36443)
+  Java API/docs/Versions.asciidoc/master c595a73c   Add test logging for #35644
   Java API/docs/java-api/0.90         2f99ae3b   [DOCS] Remove unnecessary X-Pack reference
   Java API/docs/java-api/1.3          597499a9   [DOCS] Remove unnecessary X-Pack reference
   Java API/docs/java-api/1.4          83d44499   [DOCS] Remove unnecessary X-Pack reference
@@ -832,7 +832,7 @@ Repo: elasticsearch
   Java API/docs/java-api/6.4          b5b47cd8   Docs: Fix typo in bool query (#36350)
   Java API/docs/java-api/6.5          a42e2c73   update docs version (#36495)
   Java API/docs/java-api/6.x          a3324116   Docs: Fix link to transport client
-  Java API/docs/java-api/master       a9eccbcd   Tests- added helper methods to ESRestTestCase for checking warnings (#36443)
+  Java API/docs/java-api/master       c595a73c   Add test logging for #35644
   Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/5.6 fc313b64   [DOCS] Updates version to 5.6.14
   Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/6.0 70517484   [DOCS] Adds TLS warning to rolling upgrades (#35841)
   Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/6.1 c7568326   [DOCS] Adds TLS warning to rolling upgrades (#35841)
@@ -841,7 +841,7 @@ Repo: elasticsearch
   Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/6.5 a42e2c73   update docs version (#36495)
   Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/6.x a3324116   Docs: Fix link to transport client
-  Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/master a9eccbcd   Tests- added helper methods to ESRestTestCase for checking warnings (#36443)
+  Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/master c595a73c   Add test logging for #35644
   Java API/server/src/test/java/org/elasticsearch/client/documentation/6.0 70517484   [DOCS] Adds TLS warning to rolling upgrades (#35841)
   Java API/server/src/test/java/org/elasticsearch/client/documentation/6.1 c7568326   [DOCS] Adds TLS warning to rolling upgrades (#35841)
   Java API/server/src/test/java/org/elasticsearch/client/documentation/6.2 b290d42f   [DOCS] Adds TLS warning to rolling upgrades (#35841)
@@ -849,7 +849,7 @@ Repo: elasticsearch
   Java API/server/src/test/java/org/elasticsearch/client/documentation/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Java API/server/src/test/java/org/elasticsearch/client/documentation/6.5 a42e2c73   update docs version (#36495)
   Java API/server/src/test/java/org/elasticsearch/client/documentation/6.x a3324116   Docs: Fix link to transport client
-  Java API/server/src/test/java/org/elasticsearch/client/documentation/master a9eccbcd   Tests- added helper methods to ESRestTestCase for checking warnings (#36443)
+  Java API/server/src/test/java/org/elasticsearch/client/documentation/master c595a73c   Add test logging for #35644
   Java REST Client/client/5.6         fc313b64   [DOCS] Updates version to 5.6.14
   Java REST Client/client/6.0         70517484   [DOCS] Adds TLS warning to rolling upgrades (#35841)
   Java REST Client/client/6.1         c7568326   [DOCS] Adds TLS warning to rolling upgrades (#35841)
@@ -858,7 +858,7 @@ Repo: elasticsearch
   Java REST Client/client/6.4         b5b47cd8   Docs: Fix typo in bool query (#36350)
   Java REST Client/client/6.5         a42e2c73   update docs version (#36495)
   Java REST Client/client/6.x         a3324116   Docs: Fix link to transport client
-  Java REST Client/client/master      a9eccbcd   Tests- added helper methods to ESRestTestCase for checking warnings (#36443)
+  Java REST Client/client/master      c595a73c   Add test logging for #35644
   Java REST Client/docs/Versions.asciidoc/5.0 c77f63e4   Grammar: "by geographically" → "geographically" (#28595)
   Java REST Client/docs/Versions.asciidoc/5.1 28f4e572   Introduce Gradle wrapper
   Java REST Client/docs/Versions.asciidoc/5.2 104b202e   Introduce Gradle wrapper
@@ -873,7 +873,7 @@ Repo: elasticsearch
   Java REST Client/docs/Versions.asciidoc/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Java REST Client/docs/Versions.asciidoc/6.5 a42e2c73   update docs version (#36495)
   Java REST Client/docs/Versions.asciidoc/6.x a3324116   Docs: Fix link to transport client
-  Java REST Client/docs/Versions.asciidoc/master a9eccbcd   Tests- added helper methods to ESRestTestCase for checking warnings (#36443)
+  Java REST Client/docs/Versions.asciidoc/master c595a73c   Add test logging for #35644
   Java REST Client/docs/java-rest/5.0 c77f63e4   Grammar: "by geographically" → "geographically" (#28595)
   Java REST Client/docs/java-rest/5.1 28f4e572   Introduce Gradle wrapper
   Java REST Client/docs/java-rest/5.2 104b202e   Introduce Gradle wrapper
@@ -888,7 +888,7 @@ Repo: elasticsearch
   Java REST Client/docs/java-rest/6.4 b5b47cd8   Docs: Fix typo in bool query (#36350)
   Java REST Client/docs/java-rest/6.5 a42e2c73   update docs version (#36495)
   Java REST Client/docs/java-rest/6.x a3324116   Docs: Fix link to transport client
-  Java REST Client/docs/java-rest/master a9eccbcd   Tests- added helper methods to ESRestTestCase for checking warnings (#36443)
+  Java REST Client/docs/java-rest/master c595a73c   Add test logging for #35644
   Painless Scripting Language/docs/Versions.asciidoc/5.5 b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
   Painless Scripting Language/docs/Versions.asciidoc/5.6 fc313b64   [DOCS] Updates version to 5.6.14
   Painless Scripting Language/docs/Versions.asciidoc/6.0 70517484   [DOCS] Adds TLS warning to rolling upgrades (#35841)
@@ -984,7 +984,7 @@ Repo: elasticsearch-hadoop
   Elasticsearch for Apache Hadoop and Spark/docs/src/reference/asciidoc/6.2 a0542c69   Remove the 5.X release notes from the 6 and 7 release lines
   Elasticsearch for Apache Hadoop and Spark/docs/src/reference/asciidoc/6.3 3072ff13   Remove the 5.X release notes from the 6 and 7 release lines
   Elasticsearch for Apache Hadoop and Spark/docs/src/reference/asciidoc/6.4 b08c9fd6   bump 6.4 branch version to 6.4.4
-  Elasticsearch for Apache Hadoop and Spark/docs/src/reference/asciidoc/6.5 53e49eb7   Release Notes for 6.5.2
+  Elasticsearch for Apache Hadoop and Spark/docs/src/reference/asciidoc/6.5 6dae1025   6.5.3 Release Notes
   Elasticsearch for Apache Hadoop and Spark/docs/src/reference/asciidoc/6.x 7af83d20   6.5.1 Release Notes
   Elasticsearch for Apache Hadoop and Spark/docs/src/reference/asciidoc/master bed6bb38   Get canonical file path in Version's classpath normalization (#1216)
 
