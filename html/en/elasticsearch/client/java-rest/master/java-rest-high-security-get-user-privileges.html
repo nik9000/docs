@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Security APIs
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Get User Privileges API
         | Java REST Client [master]
       | Elastic
-    </title><meta name="generator" content="DocBook XSL Stylesheets V1.78.1" /><link rel="home" href="index.html" title="Java REST Client [master]" /><link rel="up" href="java-rest-high.html" title="Java High Level REST Client" /><link rel="prev" href="java-rest-high-rollup-x-pack-rollup-get-rollup-index-caps.html" title="Get Rollup Index Capabilities API" /><link rel="next" href="java-rest-high-security-put-user.html" title="Put User API" /><meta name="description" content="Get started with the documentation for Elasticsearch, Kibana, Logstash, Beats, X-Pack, Elastic Cloud, Elasticsearch for Apache Hadoop, and our language clients." /><meta name="DC.type" content="Learn/Docs/Clients/JavaREST/master" /><meta name="DC.subject" content="Clients" /><meta name="DC.identifier" content="master" />
+    </title><meta name="generator" content="DocBook XSL Stylesheets V1.78.1" /><link rel="home" href="index.html" title="Java REST Client [master]" /><link rel="up" href="_security_apis.html" title="Security APIs" /><link rel="prev" href="java-rest-high-security-has-privileges.html" title="Has Privileges API" /><link rel="next" href="java-rest-high-security-get-certificates.html" title="SSL Certificate API" /><meta name="description" content="Get started with the documentation for Elasticsearch, Kibana, Logstash, Beats, X-Pack, Elastic Cloud, Elasticsearch for Apache Hadoop, and our language clients." /><meta name="DC.type" content="Learn/Docs/Clients/JavaREST/master" /><meta name="DC.subject" content="Clients" /><meta name="DC.identifier" content="master" />
     
 
     
@@ -696,65 +696,85 @@ Not what you want? See the
 <a href="../current/index.html">current release documentation</a>.
 </div><div class="breadcrumbs"><span class="breadcrumb-link"><a href="index.html">Java REST Client
       [master]
-    </a></span> » <span class="breadcrumb-link"><a href="java-rest-high.html">Java High Level REST Client</a></span> » <span class="breadcrumb-node">Security APIs</span></div><div class="navheader"><span class="prev"><a href="java-rest-high-rollup-x-pack-rollup-get-rollup-index-caps.html">
+    </a></span> » <span class="breadcrumb-link"><a href="java-rest-high.html">Java High Level REST Client</a></span> » <span class="breadcrumb-link"><a href="_security_apis.html">Security APIs</a></span> » <span class="breadcrumb-node">Get User Privileges API</span></div><div class="navheader"><span class="prev"><a href="java-rest-high-security-has-privileges.html">
               « 
-              Get Rollup Index Capabilities API</a>
+              Has Privileges API</a>
            
         </span><span class="next">
            
-          <a href="java-rest-high-security-put-user.html">Put User API
+          <a href="java-rest-high-security-get-certificates.html">SSL Certificate API
                »
-            </a></span></div><div class="chapter"><div class="titlepage"><div><div><h2 class="title"><a id="_security_apis"></a>Security APIs<a href="https://github.com/elastic/elasticsearch/edit/master/docs/java-rest/high-level/supported-apis.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>The Java High Level REST Client supports the following Security APIs:</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
-<a class="xref" href="java-rest-high-security-put-user.html" title="Put User API">Put User API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-delete-user.html" title="Delete User API">Delete User API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-enable-user.html" title="Enable User API">Enable User API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-disable-user.html" title="Disable User API">Disable User API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-change-password.html" title="Change Password API">Change Password API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-put-role.html" title="Put Role API">Put Role API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-get-roles.html" title="Get Roles API">Get Roles API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-delete-role.html" title="Delete Role API">Delete Role API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-clear-roles-cache.html" title="Clear Roles Cache API">Clear Roles Cache API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-clear-realm-cache.html" title="Clear Realm Cache API">Clear Realm Cache API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-authenticate.html" title="Authenticate API">Authenticate API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-has-privileges.html" title="Has Privileges API">Has Privileges API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-get-user-privileges.html" title="Get User Privileges API">Get User Privileges API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-get-certificates.html" title="SSL Certificate API">SSL Certificate API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-put-role-mapping.html" title="Put Role Mapping API">Put Role Mapping API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-get-role-mappings.html" title="Get Role Mappings API">Get Role Mappings API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-delete-role-mapping.html" title="Delete Role Mapping API">Delete Role Mapping API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-create-token.html" title="Create Token API">Create Token API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-invalidate-token.html" title="Invalidate Token API">Invalidate Token API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-get-privileges.html" title="Get Privileges API">Get Privileges API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-put-privileges.html" title="Put Privileges API">Put Privileges API</a>
-</li><li class="listitem">
-<a class="xref" href="java-rest-high-security-delete-privileges.html" title="Delete Privileges API">Delete Privileges API</a>
-</li></ul></div></div><div class="navfooter"><span class="prev"><a href="java-rest-high-rollup-x-pack-rollup-get-rollup-index-caps.html">
+            </a></span></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="java-rest-high-security-get-user-privileges"></a>Get User Privileges API<a href="https://github.com/elastic/elasticsearch/edit/master/docs/java-rest/high-level/security/get-user-privileges.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="java-rest-high-security-get-user-privileges-sync"></a>Synchronous Execution<a href="https://github.com/elastic/elasticsearch/edit/master/docs/java-rest/high-level/execution-no-req.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>When executing the <code class="literal">get-user-privileges</code> API in the following manner, the client waits
+for the <code class="literal">GetUserPrivilegesResponse</code> to be returned before continuing with code execution:</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-java">GetUserPrivilegesResponse response = client.security().getUserPrivileges(RequestOptions.DEFAULT);</pre></div><p>Synchronous calls may throw an <code class="literal">IOException</code> in case of either failing to
+parse the REST response in the high-level REST client, the request times out
+or similar cases where there is no response coming back from the server.</p><p>In cases where the server returns a <code class="literal">4xx</code> or <code class="literal">5xx</code> error code, the high-level
+client tries to parse the response body error details instead and then throws
+a generic <code class="literal">ElasticsearchException</code> and adds the original <code class="literal">ResponseException</code> as a
+suppressed exception to it.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="java-rest-high-security-get-user-privileges-async"></a>Asynchronous Execution<a href="https://github.com/elastic/elasticsearch/edit/master/docs/java-rest/high-level/execution-no-req.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>The <code class="literal">get-user-privileges</code> API can also be called in an asynchronous fashion so that
+the client can return directly. Users need to specify how the response or
+potential failures will be handled by passing a listener to the
+asynchronous get-user-privileges method:</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-java">client.security().getUserPrivilegesAsync(RequestOptions.DEFAULT, listener); <a id="CO988-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span></pre></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO988-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+The <code class="literal">RequestOptions</code> and <code class="literal">ActionListener</code> to use when the execution
+    completes
+</p></td></tr></table></div><p>The asynchronous method does not block and returns immediately. Once it is
+completed the <code class="literal">ActionListener</code> is called back using the <code class="literal">onResponse</code> method
+if the execution successfully completed or using the <code class="literal">onFailure</code> method if
+it failed. Failure scenarios and expected exceptions are the same as in the
+synchronous execution case.</p><p>A typical listener for <code class="literal">get-user-privileges</code> looks like:</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-java">ActionListener&lt;GetUserPrivilegesResponse&gt; listener = new ActionListener&lt;GetUserPrivilegesResponse&gt;() {
+    @Override
+    public void onResponse(GetUserPrivilegesResponse getUserPrivilegesResponse) {
+        <a id="CO989-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
+    }
+
+    @Override
+    public void onFailure(Exception e) {
+        <a id="CO989-2"></a><span><img src="images/icons/callouts/2.png" alt="" /></span>
+    }
+};</pre></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO989-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+Called when the execution is successfully completed.
+</p></td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO989-2"><span><img src="images/icons/callouts/2.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+Called when the <code class="literal">get-user-privileges</code> call fails.
+</p></td></tr></table></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="java-rest-high-security-get-user-privileges-response"></a>Get User Privileges Response<a href="https://github.com/elastic/elasticsearch/edit/master/docs/java-rest/high-level/security/get-user-privileges.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>The returned <code class="literal">GetUserPrivilegesResponse</code> contains the following properties</p><div class="variablelist"><dl class="variablelist"><dt><span class="term">
+<code class="literal">clusterPrivileges</code>
+</span></dt><dd>
+A <code class="literal">Set</code> of all <span class="emphasis"><em>cluster</em></span> privileges that are held by the user.
+This will be the union of all the <span class="emphasis"><em>cluster</em></span> privileges from the user’s roles.
+</dd><dt><span class="term">
+<code class="literal">globalPrivileges</code>
+</span></dt><dd>
+A <code class="literal">Set</code> of all <span class="emphasis"><em>global</em></span> privileges that are held by the user.
+This will be the union of all the <span class="emphasis"><em>global</em></span> privileges from the user’s roles.
+Because this a union of multiple roles, it may contain multiple privileges for
+the same <code class="literal">category</code> and <code class="literal">operation</code> (which is why is is represented as a <code class="literal">Set</code>
+rather than a single object).
+</dd><dt><span class="term">
+<code class="literal">indicesPrivileges</code>
+</span></dt><dd>
+A <code class="literal">Set</code> of all <span class="emphasis"><em>index</em></span> privileges that are held by the user.
+This will be the union of all the <span class="emphasis"><em>index</em></span> privileges from the user’s roles.
+Because this a union of multiple roles, it may contain multiple privileges for
+the same <code class="literal">index</code>, and those privileges may have independent field level security
+access grants and/or multiple document level security queries.
+</dd><dt><span class="term">
+<code class="literal">applicationPrivileges</code>
+</span></dt><dd>
+A <code class="literal">Set</code> of all <span class="emphasis"><em>application</em></span> privileges that are held by the user.
+This will be the union of all the <span class="emphasis"><em>application</em></span> privileges from the user’s roles.
+</dd><dt><span class="term">
+<code class="literal">runAsPrivilege</code>
+</span></dt><dd>
+A <code class="literal">Set</code> representation of the <span class="emphasis"><em>run-as</em></span> privilege that is held by the user.
+This will be the union of the <span class="emphasis"><em>run-as</em></span> privilege from each of the user’s roles.
+</dd></dl></div><div class="pre_wrapper"><pre class="programlisting prettyprint lang-java">final Set&lt;String&gt; cluster = response.getClusterPrivileges();
+final Set&lt;UserIndicesPrivileges&gt; index = response.getIndicesPrivileges();
+final Set&lt;ApplicationResourcePrivileges&gt; application = response.getApplicationPrivileges();
+final Set&lt;String&gt; runAs = response.getRunAsPrivilege();</pre></div></div></div><div class="navfooter"><span class="prev"><a href="java-rest-high-security-has-privileges.html">
               « 
-              Get Rollup Index Capabilities API</a>
+              Has Privileges API</a>
            
         </span><span class="next">
            
-          <a href="java-rest-high-security-put-user.html">Put User API
+          <a href="java-rest-high-security-get-certificates.html">SSL Certificate API
                »
             </a></span></div>
 <!-- end body -->
