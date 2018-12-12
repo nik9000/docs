@@ -16,7 +16,7 @@ apm-agent-js-base:
 apm-agent-nodejs:
   APM Node.js Agent/docs/0.x: 635eae53d69db8ceee35a9311ddc1986425d842d
   APM Node.js Agent/docs/1.x: 01730784304e949dd3230343247f9e63b90cd435
-  APM Node.js Agent/docs/2.x: 50dbeecd593aaa3935db3de47ebb3da7dc6d0033
+  APM Node.js Agent/docs/2.x: 30b46e3fa550ba20993234e677a53217afe1632f
   APM Node.js Agent/docs/master: 413c29cc1441f6ae52c045b2db608610a40f9560
 apm-agent-python:
   APM Python Agent/docs/1.x: ad6489d76089b7dd1c939b5bf426514749940d26
