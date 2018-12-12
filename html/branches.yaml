@@ -20,7 +20,7 @@ apm-agent-nodejs:
   APM Node.js Agent/docs/master: 413c29cc1441f6ae52c045b2db608610a40f9560
 apm-agent-python:
   APM Python Agent/docs/1.x: ad6489d76089b7dd1c939b5bf426514749940d26
-  APM Python Agent/docs/2.x: 363c9b4e0ce9d0ec1c03282041e7327fb9f2c158
+  APM Python Agent/docs/2.x: 87131809d4e9cb17a22d86f81b8742b45ff15b3a
   APM Python Agent/docs/3.x: 74aa9697fb4d84e10bdb95fbdf5e09a6a45de00d
   APM Python Agent/docs/4.x: da79c18f393882ca93425cd5629582c8955b75ca
   APM Python Agent/docs/master: 929fcc5089bcaa0b3e9593d1cd13bdd4d5172f4e

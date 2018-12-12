@@ -28,7 +28,7 @@ Repo: apm-agent-nodejs
 Repo: apm-agent-python
 --------------------------------------------------------------------------------
   APM Python Agent/docs/1.x           ad6489d7   link to APM Server 6.4 in the 1.x branch (#330)
-  APM Python Agent/docs/2.x           363c9b4e   fix the allowed_failure travis configuration (#333)
+  APM Python Agent/docs/2.x           87131809   docs: version links to 6.4 (#357)
   APM Python Agent/docs/3.x           74aa9697   docs: version links to 6.4 (#356)
   APM Python Agent/docs/4.x           da79c18f   update CHANGELOG and bump version to 4.0.2
   APM Python Agent/docs/master        929fcc50   implement dedotting of context keys and tag names (#353)
