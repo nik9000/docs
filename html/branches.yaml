@@ -608,11 +608,11 @@ cloud:
   'Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/shared/1.1': a7b3966fe1baa9507980574bc2561c1bbe3cb892
   'Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/shared/2.0': 8da555e0f6b36c87667ed7af42b9e876f4976d18
   'Elastic Cloud - Hosted Elasticsearch and Kibana/docs/saas/release-ms-13': 75fd020118ec22adac44ed5c8740960ae51a58c5
-  'Elastic Cloud - Hosted Elasticsearch and Kibana/docs/saas/release-ms-14': eed5a6736f6ddcc849a0a859b764cf9adeac96c6
+  'Elastic Cloud - Hosted Elasticsearch and Kibana/docs/saas/release-ms-14': e455a6972df51fc104baaf9004b62d64a8e61a4e
   'Elastic Cloud - Hosted Elasticsearch and Kibana/docs/saas/saas-release': ef993a3597c0d6c22c8f7cfbac35497cba1ffafa
   'Elastic Cloud - Hosted Elasticsearch and Kibana/docs/saas/saas-release-heroku': 0e39506f8847bc224597bc95e966d11e62034e99
   'Elastic Cloud - Hosted Elasticsearch and Kibana/docs/shared/release-ms-13': 75fd020118ec22adac44ed5c8740960ae51a58c5
-  'Elastic Cloud - Hosted Elasticsearch and Kibana/docs/shared/release-ms-14': eed5a6736f6ddcc849a0a859b764cf9adeac96c6
+  'Elastic Cloud - Hosted Elasticsearch and Kibana/docs/shared/release-ms-14': e455a6972df51fc104baaf9004b62d64a8e61a4e
   'Elastic Cloud - Hosted Elasticsearch and Kibana/docs/shared/saas-release': ef993a3597c0d6c22c8f7cfbac35497cba1ffafa
 curator:
   Curator Index Management/docs/asciidoc/3.3: df6ebeead7e8d0a7f05c4b334970320c080c9e0f
