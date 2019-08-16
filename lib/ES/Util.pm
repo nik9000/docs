@@ -86,7 +86,7 @@ sub build_chunked {
         # Emulate asciidoc_dir because we use it to find shared asciidoc files
         # but asciidoctor doesn't support it.
         my $asciidoc_dir = dir('resources/asciidoc-8.6.8/')->absolute;
-        # We use the admonishment images from asciidoc so add it as a resource
+        # We use the admonition images from asciidoc so add it as a resource
         # so we can find them
         push @$resources, $asciidoc_dir;
         eval {
@@ -228,7 +228,7 @@ sub build_single {
         # Emulate asciidoc_dir because we use it to find shared asciidoc files
         # but asciidoctor doesn't support it.
         my $asciidoc_dir = dir('resources/asciidoc-8.6.8/')->absolute;
-        # We use the admonishment images from asciidoc so add it as a resource
+        # We use the admonitions images from asciidoc so add it as a resource
         # so we can find them
         push @$resources, $asciidoc_dir;
         eval {
