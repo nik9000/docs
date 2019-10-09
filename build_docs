@@ -53,6 +53,7 @@ def build_docker_image():
     docker_logger.info('Building the docker image that will build the docs. ' +
                        'Expect this to take somewhere between a hundred ' +
                        'milliseconds and five minutes.')
+    # TODO we can probably drop opening the dockerfil
     with open(join(DIR, 'Dockerfile')) as dockerfile:
         # We attempt to spool up the output from docker build so we can hide it
         # if the command is successful *and* runs quickly. If it takes longer
@@ -132,6 +133,7 @@ def run_build_docs(args):
 
     mounted_doc_repo_roots = set()
     mounted_doc_repo_names = set()
+    mounted_alternates = set()
 
     def mount_docs_repo_and_dockerify_path(repo_search_path, path):
         """Adds a mount for the root of the repository into the docker
@@ -168,6 +170,7 @@ def run_build_docs(args):
                 '-v',
                 '%s:%s:ro,cached' % (repo_root, repo_mount)
             ])
+            mount_alternates(repo_root)
         if not path.startswith(repo_root):
             cmd = 'git rev-parse --show-toplevel'
             err = ("provided path doesn't contain `%s`:\n"
@@ -177,6 +180,26 @@ def run_build_docs(args):
                 (cmd, path, repo_root)
             raise ArgError(err)
         return repo_mount + path[len(repo_root):]
+
+    def mount_alternates(repo_root):
+        path = '/objects/info/alternates'
+        if repo_root[:-4] != '.git':
+            path = '/.git' + path
+        alternates_file = repo_root + path
+        if not exists(alternates_file):
+            return
+
+        with open(alternates_file, 'r') as f:
+            for line in f.readlines():
+                alternates_root = line.strip()
+                alternates_mount = '/alternates' + alternates_root
+                if alternates_mount in mounted_alternates:
+                    continue
+                mounted_alternates.add(alternates_mount)
+                docker_args.extend([
+                    '-v',
+                    '%s:%s:ro,cached' % (alternates_root, alternates_mount)
+                ])
 
     open_browser = False
     args = Args(args)
@@ -307,6 +330,12 @@ def run_build_docs(args):
             "-e", "CHOKIDAR_USEPOLLING=1",
             "--ulimit", "nofile=90000:90000"
         ])
+
+    if mounted_alternates:
+        alts = list(mounted_alternates)
+        alts.sort()
+        alts = ':'.join(alts)
+        docker_args.extend(['-e', 'GIT_ALTERNATE_OBJECT_DIRECTORIES=' + alts])
 
     cmd = []
     cmd.extend(['docker', 'run'])
