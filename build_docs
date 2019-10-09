@@ -141,7 +141,10 @@ def run_build_docs(args):
 
         If the repo happens to already be mounted we won't add two mounts.
         """
-        repo_root = root_of_repo(path_in_repo)
+        repo_root = subprocess.check_output(
+                ['git', 'rev-parse', '--show-toplevel'],
+                cwd=path_in_repo)
+        repo_root = repo_root.decode('utf-8').strip()
         repo_name = basename(repo_root)
         if 'x-pack-' in repo_name:
             # x-pack-foo repositories expect to be mounted in the foo-extra
@@ -178,11 +181,12 @@ def run_build_docs(args):
             raise ArgError(err)
         return repo_mount + path[len(repo_root):]
 
-    def mount_alternates(repo_root):
-        path = '/objects/info/alternates'
-        if repo_root[:-4] != '.git':
-            path = '/.git' + path
-        alternates_file = repo_root + path
+    def mount_alternates(path_in_repo):
+        git_dir = subprocess.check_output(
+                ['git', 'rev-parse', '--absolute-git-dir'],
+                cwd=path_in_repo)
+        git_dir = git_dir.decode('utf-8').strip()
+        alternates_file = git_dir + '/objects/info/alternates'
         if not exists(alternates_file):
             return
 
@@ -197,9 +201,8 @@ def run_build_docs(args):
                     '-v',
                     '%s:%s:ro,cached' % (alternates_root, alternates_mount)
                 ])
-                repo_root = root_of_repo(alternates_root + "/../..")
-                print("mounted " + repo_root + "  " + alternates_root)
-                mount_alternates(repo_root)
+                print("mounted " + alternates_root)
+                mount_alternates(alternates_root)
 
     open_browser = False
     args = Args(args)
@@ -466,12 +469,6 @@ def forward_ssh_auth_into_container(container, docker_run):
     # we've failed.
     raise subprocess.CalledProcessError(setup_auth_socket.returncode, cmd)
 
-
-def root_of_repo(path_in_repo):
-    repo_root = subprocess.check_output(
-                ['git', 'rev-parse', '--show-toplevel'],
-                cwd=path_in_repo)
-    return repo_root.decode('utf-8').strip()
 
 class Args:
     def __init__(self, args):
