@@ -173,7 +173,7 @@ sub _prepare_sub_dir {
         1;
     };
     unless ( $no_uncommitted_changes ) {
-        unless ( $@ =~ /\n---out---\n\n---err---\n---------$/) {
+        unless ( $@ =~ /\n---out---\n\n---err---\n---------\n$/) {
             # If the error message isn't empty then something went wrong checking.
             die "failed to check for outstanding commits: $@";
         }
