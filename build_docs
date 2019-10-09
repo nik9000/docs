@@ -331,6 +331,8 @@ def run_build_docs(args):
             "--ulimit", "nofile=90000:90000"
         ])
 
+    if 'GIT_ALTERNATE_OBJECT_DIRECTORIES' in environ:
+        mounted_alternates.append(environ[envname].split(':'))
     print("mounting %s" % mounted_alternates)
     if mounted_alternates:
         alts = list(mounted_alternates)
@@ -343,7 +345,7 @@ def run_build_docs(args):
     cmd.extend(docker_args)
     cmd.extend([DOCKER_TAG, '/docs_build/build_docs.pl'])
     cmd.extend(build_docs_args)
-    # Use a PIPE for stdin so if our process dies then the docs build  sees
+    # Use a PIPE for stdin so if our process dies then the docs build sees
     # stdin close which it will use as a signal to die.
     docker_run = common_popen(cmd, subprocess.PIPE)
 
