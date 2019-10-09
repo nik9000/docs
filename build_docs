@@ -335,6 +335,7 @@ def run_build_docs(args):
         alts = list(mounted_alternates)
         alts.sort()
         alts = ':'.join(alts)
+        print("mounting %s" % alts)
         docker_args.extend(['-e', 'GIT_ALTERNATE_OBJECT_DIRECTORIES=' + alts])
 
     cmd = []
