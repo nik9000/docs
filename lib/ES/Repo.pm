@@ -173,7 +173,8 @@ sub _prepare_sub_dir {
         1;
     };
     unless ( $no_uncommitted_changes ) {
-        if ( $@ ) {
+        unless ( $@ =~ /\n---out---\n\n---err---\n---------$/) {
+            # If the error message isn't empty then something went wrong checking.
             die "failed to check for outstanding commits: $@";
         }
         printf(" - %40.40s: Not merging the subbed dir for [%s][%s][%s] because it has uncommitted changes.\n",
