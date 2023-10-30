@@ -1814,3 +1814,8 @@ named for their IDs:
 
 To link to "Section two" from an external
 document, you would use the URL: `section-one.html#section-two`
+
+[[Page-headers]]
+== Page headers
+
+Add a banner to every page within a book by creating a `page_header.html` file. This file must live in the root of the documentation directory (i.e. the book's `path` in `conf.yaml`) and is picked up by the doc build automatically. This file can include any valid HTML. An example can be seen https://github.com/elastic/apm-server/pull/6833/files[here].
